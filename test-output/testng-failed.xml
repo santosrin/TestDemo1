@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default Suite]">
   <test name="TesyProject(failed)">
     <classes>
-      <class name="example.NewTest">
+      <class name="example.Demo1">
         <methods>
-          <include name="testEasy"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
+          <include name="am"/>
+          <include name="bm"/>
+          <include name="t5"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="as"/>
+          <include name="at"/>
         </methods>
-      </class> <!-- example.NewTest -->
+      </class> <!-- example.Demo1 -->
     </classes>
   </test> <!-- TesyProject(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
