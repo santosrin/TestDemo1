@@ -30,12 +30,12 @@ public class Demo1 {
         System.out.println("Before Method");
     }
 
-    @DataProvider(name = "dp")
-    public Object[][] dp(){
+    @DataProvider
+    public Object[][] dp1(){
         Object[][] obj = new Object[][] {{"A","Avalue"},{"B","Bvalue"},{"C","Cvalue"}};
         return obj;
     }
-    @Test(description = "This is t1",dataProvider ="dp")
+    @Test(description = "This is t1",dataProvider ="dp1")
     public void t1(String key, String value){
         System.out.println("Test1 and DP check : "+  key + ":"+ value);
         Assert.assertEquals(true,true);

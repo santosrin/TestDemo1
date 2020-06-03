@@ -1,25 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="8111" started-at="2020-06-01T12:13:16Z" finished-at="2020-06-01T12:13:24Z">
+  <suite name="All Test Suite" duration-ms="7087" started-at="2020-06-02T07:14:30Z" finished-at="2020-06-02T07:14:37Z">
     <groups>
+      <group name="sanity">
+        <method signature="Demo1.t2()[pri:0, instance:example.Demo1@61a485d2]" name="t2" class="example.Demo1"/>
+        <method signature="Demo1.t4()[pri:0, instance:example.Demo1@61a485d2]" name="t4" class="example.Demo1"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="/Users/santoshsrinivas/IdeaProjects/TesyProject" duration-ms="8111" started-at="2020-06-01T12:13:16Z" finished-at="2020-06-01T12:13:24Z">
+    <test name="/Users/santoshsrinivas/IdeaProjects/TesyProject" duration-ms="7087" started-at="2020-06-02T07:14:30Z" finished-at="2020-06-02T07:14:37Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@234bef66]" name="beforeTest" is-config="true" duration-ms="4202" started-at="2020-06-01T17:43:16Z" finished-at="2020-06-01T17:43:20Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@458ad742]" name="beforeTest" is-config="true" duration-ms="3256" started-at="2020-06-02T12:44:30Z" finished-at="2020-06-02T12:44:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@234bef66]" name="testEasy" duration-ms="3182" started-at="2020-06-01T17:43:20Z" finished-at="2020-06-01T17:43:24Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@458ad742]" name="testEasy" duration-ms="3137" started-at="2020-06-02T12:44:33Z" finished-at="2020-06-02T12:44:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@234bef66]" name="afterTest" is-config="true" duration-ms="702" started-at="2020-06-01T17:43:24Z" finished-at="2020-06-01T17:43:24Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@458ad742]" name="afterTest" is-config="true" duration-ms="663" started-at="2020-06-02T12:44:36Z" finished-at="2020-06-02T12:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- example.NewTest -->
+      <class name="example.Demo1">
+        <test-method status="PASS" signature="bs()[pri:0, instance:example.Demo1@61a485d2]" name="bs" is-config="true" duration-ms="9" started-at="2020-06-02T12:44:30Z" finished-at="2020-06-02T12:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method status="PASS" signature="bt()[pri:0, instance:example.Demo1@61a485d2]" name="bt" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:30Z" finished-at="2020-06-02T12:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:example.Demo1@61a485d2]" name="bc" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:example.Demo1@61a485d2]" name="bm" is-config="true" duration-ms="1" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="t1(java.lang.String, java.lang.String)[pri:0, instance:example.Demo1@61a485d2]" name="t1" duration-ms="0" started-at="2020-06-02T12:44:37Z" description="This is t1" data-provider="dp" finished-at="2020-06-02T12:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Avalue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method status="PASS" signature="am()[pri:0, instance:example.Demo1@61a485d2]" name="am" is-config="true" duration-ms="1" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="t1(java.lang.String, java.lang.String)[pri:0, instance:example.Demo1@61a485d2]" name="t1" duration-ms="0" started-at="2020-06-02T12:44:37Z" description="This is t1" data-provider="dp" finished-at="2020-06-02T12:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bvalue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:example.Demo1@61a485d2]" name="bm" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:example.Demo1@61a485d2]" name="bm" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:example.Demo1@61a485d2]" name="am" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="t1(java.lang.String, java.lang.String)[pri:0, instance:example.Demo1@61a485d2]" name="t1" duration-ms="1" started-at="2020-06-02T12:44:37Z" description="This is t1" data-provider="dp" finished-at="2020-06-02T12:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cvalue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method status="PASS" signature="am()[pri:0, instance:example.Demo1@61a485d2]" name="am" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="t5(java.lang.String)[pri:0, instance:example.Demo1@61a485d2]" name="t5" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t5 -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:example.Demo1@61a485d2]" name="bm" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:example.Demo1@61a485d2]" name="am" is-config="true" duration-ms="1" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:example.Demo1@61a485d2]" name="bm" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="t4()[pri:0, instance:example.Demo1@61a485d2]" name="t4" duration-ms="1" started-at="2020-06-02T12:44:37Z" description="This is t4" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4 -->
+        <test-method status="PASS" signature="am()[pri:0, instance:example.Demo1@61a485d2]" name="am" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:example.Demo1@61a485d2]" name="bm" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="t2()[pri:0, instance:example.Demo1@61a485d2]" name="t2" duration-ms="1" started-at="2020-06-02T12:44:37Z" description="This is t2" depends-on-methods="example.Demo1.t1" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="ac()[pri:0, instance:example.Demo1@61a485d2]" name="ac" is-config="true" duration-ms="1" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method status="PASS" signature="am()[pri:0, instance:example.Demo1@61a485d2]" name="am" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="at()[pri:0, instance:example.Demo1@61a485d2]" name="at" is-config="true" duration-ms="0" started-at="2020-06-02T12:44:37Z" finished-at="2020-06-02T12:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method status="PASS" signature="as()[pri:0, instance:example.Demo1@61a485d2]" name="as" is-config="true" duration-ms="1" started-at="2020-06-02T12:44:42Z" finished-at="2020-06-02T12:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- example.Demo1 -->
     </test> <!-- /Users/santoshsrinivas/IdeaProjects/TesyProject -->
   </suite> <!-- All Test Suite -->
 </testng-results>
